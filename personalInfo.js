@@ -1,3 +1,5 @@
+//made function for personal info then logged it to the console
+
 function personalInfo(){
 const name = "Jesus Corrales"
 const age = 29  
