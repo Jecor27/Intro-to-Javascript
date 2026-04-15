@@ -1,6 +1,6 @@
 function tempConverter() {
   let promptAgain = "yes";
-  while (promptAgain == "yes") {
+  while (promptAgain === "yes") {
     let celsiusInput = prompt("Enter temperature in Celsius:");
     let celsius = Number(celsiusInput);
     if (!celsius) {
